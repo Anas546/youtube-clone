@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header start */
+
+.main {
+    /*   this is main screen size div  */
+    /* border: 3px solid black; */
+    height: 667px;
+    width: 100%;
+    /* overflow: scroll; */
+    padding: 2px;
+    margin: 2px;
+    /* margin-left: 9em; */
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+}
+header {
+    /* background: #cf4485; */
+    margin-left: 4.9em;
+    /* background: #978e8e; */
+    height: 2.7em;
+}
+.navbar {
+    position: relative;
+    left: 10em;
+}
+form{
+    position: relative;
+    right: -14em;
+    top: -1.6em;
+}
+ form input{
+    font-size: 20px;
+    margin-top: 6px;
+    width: 16em;
+    height: 1.08em;
+    border-radius: 8px;
+ }
+ .option{
+    width: 60em;
+    height: 2em;
+    /* background: #cc90c4; */
+    margin-top: -0.5em;
+ }
+ .option button{
+color: #000;
+background-color:#efebeb;
+padding: 4px ;
+margin: 5px;
+border-radius:6px ;
+ }
+/* .navbar img {
+    margin: 0px 5px 0px 5px;
+    width: 1em;
+    height: 3em;
+} */
+
+.youtubelogo{
+    width: 0em;
+    height: 1em;
+    /* border: 2px solid red; */
+}
+
+.youtubelogo img {
+    width: 2em;
+    height: 2em;
+    margin: -6px;
+    margin-left: 2px;
+}
+
+.youtubelogo h6 {
+    display: inline-block;
+    margin-left: 9.5px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+/* header end  */
+
+/* youtube videoes start   */
+.middle {
+    width: 57em;
+    height: 570px;
+    /* border :2px solid red; */
+    margin: 3em 0 0 5em;
+}
+iframe{
+    margin:2px 18px 24px -1px;
+    border-radius:  20px 24px 13px;
+}
+center{
+    margin: 1.5em;
+}
+
+
+/* footer start */
+.footer {
+    /* border: 2px solid green; */
+    width: 67px;
+    height: 15.8em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top: 3.5em;
+
+}
+.footer img {
+    width: 1.3em;
+    height: 1.5em;
+    margin-left: 12px;
+    margin-bottom: -6px;
+}
+.footer h6 {
+    display: block;
+    font-size: 11px;
+    letter-spacing: -1px;
+    margin-left: 8px;
+    margin-top: -23px;
+
+}
+img .sub {
+    width: 1em;
+    height: 1em;
+    margin: 0px -24px 0px 30px;
+}
+.plus img {
+    width: 2em;
+    height: 1.4em;
+}
+/* footer end  */
+
+
+    /* subcription page start  */
+.subcription img{
+width:100%;
+height: auto;
+    }
